@@ -5,7 +5,7 @@ def get_response(word : str):
 
     url = f"https://api.dictionaryapi.dev/api/v2/entries/en/{clean_word}"
     try:
-        response = requests.get(url, timeout = 5)
+        response = requests.get(url, timeout = 8)
         if response.ok:
             data = response.json()
             if isinstance(data, list) and data:
