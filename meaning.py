@@ -14,7 +14,7 @@ def get_response(word : str):
  
     for attempt in range(2):  # try once, retry once on failure
         try:
-            response = requests.get(url, headers = REQUEST_HEADERS, timeout = 25)
+            response = requests.get(url, headers = REQUEST_HEADERS, timeout = 35)
             if response.ok:
                 data = response.json()
                 if isinstance(data, list) and data:
