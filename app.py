@@ -7,7 +7,7 @@ from translate import Translate
 
 app = FastAPI(
     title="Meridian API",
-    description="FastAPI backend for vocabulary meanings, pronunciations, and multiMeridianl translation.",
+    description="FastAPI backend for vocabulary meanings, pronunciations, and multilingual translation.",
     version="1.0.0"
 )
 
