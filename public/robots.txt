@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /get-meaning/
+Disallow: /get-translation
+Disallow: /health
+
+Sitemap: https://meridian-wine-nine.vercel.app/sitemap.xml
